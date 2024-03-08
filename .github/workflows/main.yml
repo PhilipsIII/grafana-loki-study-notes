@@ -1,0 +1,7 @@
+  steps:
+  - uses: actions/checkout@v2
+  - name: Convert digramm to png
+    uses: Burnett01/actions-drawio@1.2
+    with:
+      src: Grafana_Grafana_Loki_Availability_Scalability_Design.drawio
+      dest: Grafana_Grafana_Loki_Availability_Scalability_Design.png
