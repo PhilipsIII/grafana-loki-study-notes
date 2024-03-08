@@ -1,6 +1,9 @@
 name: Render .drawio files
 
-on: [push]
+on:
+  push:
+    paths:
+      - '**.drawio'
 
 jobs:
   render_drawio:
